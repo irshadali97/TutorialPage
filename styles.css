@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.desktop {
+    display: none;
+}
+.bg {
+    background:  url("./images/bg-intro-mobile.png") no-repeat;
+    background-color: hsl(0, 100%, 74%) ;
+    height: fit-content;
+}
+h3 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    line-height: 30px;
+}
+.left p {
+    padding-top: 40px;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: hsl(246, 38%, 89%);
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.4px;  
+    font-weight: 600;  
+    line-height: 20px;
+}
+.box {
+    width: 90%;
+    height: fit-content;
+    border: 1px solid hsl(248, 32%, 49%);
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 8px;
+    box-shadow: 0px 8px 15px 0px  black ;
+    margin: 60px auto 20px auto;
+   padding: 15px 20%; 
+    color: hsl(246, 50%, 88%);
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+}
+span {
+    color: white;
+}
+form {
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 10px 15px -2px  black ;
+    width: 90%;
+    height: fit-content;
+    margin: 25px auto 0px auto;
+    padding: 15px 5% 30px 5%;
+}
+
+.info {
+    display: block;
+    min-width: 90%;
+    height: fit-content;
+    margin: 15px 5% 0px 5%;
+    padding: 10px 0px 10px 10px;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: rgb(224, 216, 216);
+    box-shadow: none;
+    border-style: 0.1px solid;
+}
+button {
+    min-width: 90%;
+    height: fit-content;
+    margin: 10px 5%;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px 0px 10px 0px;
+    letter-spacing: 1px;
+    border: none;
+}
+form p {
+    padding: 15px 5% 20px 5%;
+    text-align: center;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: grey;
+}
+a {
+    text-decoration: none;
+    color: hsl(0, 100%, 74%) ;
+    
+}
+.last {
+    width: 100%;
+    height: 50px;
+}
+@media (min-width: 1024px) {
+    .bg {
+        background: url("./images/bg-intro-desktop.png");
+        background-color: hsl(0, 100%, 74%) ;
+        height: 100vh;
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+    }
+    .left {
+        width: 50%;
+        align-self: center;
+    }
+    .right {
+        width: 50%;
+        align-self: center;
+    }
+   h3 {
+       font-size: 3rem;
+       text-align: left;
+       margin: -10px 15% 0px 25%;
+       line-height: 50px;
+   }
+   .left p {
+    text-align: left;
+    margin: -10px 0 0px 18%;
+    
+   }
+   .box {
+    width: 75%;
+    height: fit-content;
+    margin: 60px auto 20px 5%;
+   padding: 15px 0px 15px 15%; 
+}
+form {
+    width: 75%;
+    height: fit-content;
+    margin: 25px 0px 0px 5%;
+    padding: 25px 2% 30px 2%;
+}
+
+.info {
+    margin: 20px 5% 0px 5%;
+    padding: 15px 0px 15px 25px;
+}
+button {
+    margin: 20px 0px 0px 5%;
+    padding: 20px 0px 20px 0px;
+
+}
+form p {
+    padding: 10px 5% 10px 5%;
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-size: 10px;
+}
+.mobile {
+    display: none;
+
+}
+.desktop {
+    display: block;
+}
+}
